@@ -1,6 +1,4 @@
-Python 3.13.6 (tags/v3.13.6:4e66535, Aug  6 2025, 14:36:00) [MSC v.1944 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
->>> import pandas as pd
+ import pandas as pd
 ... import matplotlib.pyplot as plt
 ... from sklearn.cluster import KMeans
 ... df = pd.read_csv("Mall_Customers.csv")
@@ -53,3 +51,4 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
